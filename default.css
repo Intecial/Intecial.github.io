@@ -1,0 +1,141 @@
+:root{
+	--mainColor: #E4D9FF;
+	--secondaryColor: #FAFAFF;
+
+	--borderColor: #273469;
+	--mainText: #30343F;
+	--secondaryText: #1E2749;
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6, strong{
+	color: var(--mainText);
+	font-family: 'Righteous', cursive;
+}
+
+p, li, span, label, input, textarea{
+	color: var(--secondaryText);
+	font-family: 'Raleway', sans-serif;
+}
+
+body{
+	background-color: var(--mainColor);
+}
+
+.s1{
+	background-color: var(--mainColor);
+
+}
+
+.s2{
+	background-color: var(--mainColor);
+
+}
+
+.main-container{
+	width: 1600px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width:  1200px){
+	.main-container{
+		width: 95%;
+	}
+}
+a{
+	text-decoration: none;
+
+}
+
+ul{
+	list-style: none;
+}
+
+h1{ font-size: 56px; }
+h2{ font-size: 36px; }
+h3{ font-size: 28px; }
+h4{ font-size: 24px; }
+h5{ font-size: 20px; }
+h6{ font-size: 16px; }
+
+.name-warpper{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+
+	min-height: 10em;
+}
+
+.navigation-wrapper{
+	background-color: var(--mainColor);
+
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: 'nav'
+
+
+}
+
+.about-wrapper{
+	/*border: 2px solid black;*/
+	border-radius: 15px;
+	
+
+
+
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 25em;
+	grid-gap: 10px;
+	grid-template-areas: 'left-col right-col';
+}
+
+.nav{
+	grid-area: nav;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	font-family: 'Raleway', sans-serif;
+
+
+}
+
+.left-col{
+	grid-area: left-col;
+	background-color: var(--secondaryColor);
+	border-radius: 15px;
+
+	
+}
+.right-col{
+	grid-area: right-col;
+	background-color: var(--secondaryColor);
+	border-radius: 15px;
+	margin: 0;
+	padding: 20px;
+
+}
+
+
+
+#navigation{
+	margin: 0;
+	padding: 10px;
+	color: var(--mainText);
+	font-family: 'Righteous', cursive;
+	font-size: 28px;
+}
+
+#navigation li{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-family: 'Righteous', cursive;
+	
+}
