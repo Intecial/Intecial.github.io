@@ -209,23 +209,15 @@ box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 .top-skills li{
 	font-weight: bolder;
 	font-size: 20px;
-	color: var(--secondaryColor);
-	
 }
-.top-skills h3, p, a{
 
-	
-}
 .socials li{
 
 	font-weight: bolder;
 	font-size: 20px;
-	color: #FAFAFF
+
 }
-.socials h3, p, a{
-	text-align: justify-all;
-	font-family: 'Raleway', sans-serif;
-}
+
 .list-box{
 
 	width: 320px;
