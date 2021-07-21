@@ -178,15 +178,18 @@ box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 }
 
 .top-skills{
-	padding-left: 60px;
+	padding: 60px;
 	background-color: var(--secondaryText);
 	width: 40%;
 	height: 800px;
 	margin-right: -120px;
 	line-height: 200%;
-	
 
 	border-radius: 8px;
+
+	box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
+-webkit-box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
+-moz-box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 }
 
 .socials{
@@ -199,21 +202,33 @@ box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 	border-radius: 8px;
 	margin-left: -150px;
 	margin-top: 160px;
+		box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
+-webkit-box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
+-moz-box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 }
 .top-skills li{
 	font-weight: bolder;
 	font-size: 20px;
 	color: var(--secondaryColor);
+	
 }
 .top-skills h3, p, a{
-	color: var(--secondaryColor);
+
+	
 }
 .socials li{
-	color: var(--secondaryColor);
+
 	font-weight: bolder;
 	font-size: 20px;
+	color: #FAFAFF
 }
 .socials h3, p, a{
-	color: var(--secondaryColor);
+	text-align: justify-all;
 	font-family: 'Raleway', sans-serif;
+}
+.list-box{
+
+	width: 320px;
+	height: 710px;
+	padding-left: 50px;
 }
