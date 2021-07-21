@@ -175,6 +175,7 @@ box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 
 .top-skills{
@@ -183,10 +184,11 @@ box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 	width: 40%;
 	height: 800px;
 	margin-right: -120px;
-	line-height: 200%;
+	line-height: 150%;
 
 	border-radius: 8px;
-
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 -webkit-box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 -moz-box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
@@ -198,7 +200,7 @@ box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 	width: 320px;
 	height: 600px;
 	line-height: 200%;
-
+	overflow: hidden;
 	border-radius: 8px;
 	margin-left: -150px;
 	margin-top: 160px;
@@ -208,18 +210,17 @@ box-shadow: 10px 12px 22px -6px rgba(0,0,0,0.67);
 }
 .top-skills li{
 	font-weight: bolder;
-	font-size: 20px;
+	font-size: 1.3vw;
 }
 
 .socials li{
 
 	font-weight: bolder;
-	font-size: 20px;
+	font-size: 1.3vw;
 
 }
 
 .list-box{
-
 	width: 320px;
 	height: 710px;
 	padding-left: 50px;
