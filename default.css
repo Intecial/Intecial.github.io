@@ -126,8 +126,8 @@ box-shadow: 42px 38px 100px -22px rgba(0,0,0,0.44);
 	
 	width: 240px;
 	height: 240px;
-	object-fit: cover;
-	border: 2px solid var(--borderColor);
+	
+	
 }
 
 #navigation{
@@ -145,7 +145,28 @@ box-shadow: 42px 38px 100px -22px rgba(0,0,0,0.44);
 	font-family: 'Righteous', cursive;
 	
 }
+.picture-wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--borderColor);
+}
 
 .picture-box{
+	width: 240px;
+	height: 240px;
+	background-color: var(--borderColor);
+	margin-left: -45px;
+	margin-top: -210px;
+}
+
+.picture-box2{
+	width: 240px;
+	height: 240px;
 	background-color: var(--secondaryText);
+	margin-left: -80px;
+	margin-top: -310px;
 }
