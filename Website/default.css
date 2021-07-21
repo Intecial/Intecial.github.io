@@ -112,7 +112,9 @@ box-shadow: 42px 38px 100px -22px rgba(0,0,0,0.44);
 
 .left-col{
 	grid-area: left-col;
-	
+	display: grid;
+	justify-content: center;
+	align-content: center;
 	
 }
 .right-col{
@@ -120,7 +122,13 @@ box-shadow: 42px 38px 100px -22px rgba(0,0,0,0.44);
 
 }
 
-
+#profilepic{
+	
+	width: 240px;
+	height: 240px;
+	object-fit: cover;
+	border: 2px solid var(--borderColor);
+}
 
 #navigation{
 	margin: 0;
@@ -136,4 +144,8 @@ box-shadow: 42px 38px 100px -22px rgba(0,0,0,0.44);
 	margin-left: 20px;
 	font-family: 'Righteous', cursive;
 	
+}
+
+.picture-box{
+	background-color: var(--secondaryText);
 }
